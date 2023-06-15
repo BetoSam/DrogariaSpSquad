@@ -16,7 +16,7 @@ public class Elementos {
 	public By consultaOnline = By.xpath("(//li[@class='rnk-lista-item']//a[@href='/consulta-online'])[1]");
 	public By aplicaInjetaveis = By.xpath("(//li[@class='rnk-lista-item']//a[@href='/aplicacao-de-injetaveis'])[1]");
 	public By pressaoArterial = By.xpath("(//li[@class='rnk-lista-item']//a[@href='/aferir-pressao'])[1]");
-	public By todosServicos = By.xpath("(//li[@class='rnk-lista-item']//a[@href='/servicos'])[2]");
+	public By todosServicos = By.xpath("(//span[@class='rnk-link-text'])[6]");
 //Acessar Perfil
 	public By email = By.id("input-floating-logar-email");
 	public By acessarPerfil = By.xpath("//*[text()='Acesse aqui o seu perfil']");
@@ -35,4 +35,26 @@ public class Elementos {
 	//Baixe o app
 public By appStore =By.xpath("(//a[@href='https://apps.apple.com/br/app/drogaria-s%C3%A3o-paulo/id1458029483'])[2]");
 public By googleStore = By.xpath("(//a[@href='https://play.google.com/store/apps/details?id=br.com.app.meuvivasaude.descontos'])[2]");
+//Parte principal
+public By revistas = By.xpath("//*[text()='Ofertas da Revista']");
+public By recorrentes = By.xpath("//*[text()='Pedidos Recorrentes']");
+public By marcasProprias  = By.xpath("//*[text()='Marcas Próprias']");
+public By lojasParceiras = By.xpath("//img[@alt='Mamãe e bebê']");
+public By  cupons = By.xpath("//h3[normalize-space()='Cupons']");
+public By testCovid = By.xpath("//img[@alt='Teste de covid']");
+public By neutrogena = By.xpath("//*[text()='Neutrogena']");
+public By  secret = By.xpath("//img[@alt='Secret']");
+public By  desodorantes = By.xpath("//*[text()='Desodorantes']");
+public By vacina = By.xpath("(//img[@alt='Procter Vacina'])[1]");
+public By clubLoreal = By.xpath("//*[text()='Clube de vantagens Loreal']");
+public By pedidoRecorrente = By.xpath("//*[text()='Pedidos Recorrentes']");
+
+
+
+
+
+
+
+
+
 }

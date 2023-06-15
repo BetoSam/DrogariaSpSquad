@@ -49,4 +49,13 @@ public class Metodos extends DriversFactory {
 	public void escrever(By elemento, String texto) {
 		driver.findElement(elemento).sendKeys(texto);
 	}
+
+	public void voltar() {
+		driver.navigate().back();
+		
+	}
+	public void rolar() {
+		JavascriptExecutor jse = (JavascriptExecutor) driver;
+		jse.executeScript("window.scrollBy(0,1000)");
+	}
 }
